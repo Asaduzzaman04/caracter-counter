@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- =====> css link <===== -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>caracter counter</title>
 </head>
+
 <body>
+
+    <!-- =====> </main-container> <===== -->
+    <div class="container">
+        <!-- =====> </title> <====== -->
+        <h2 class="appName">Real Time caracter counter</h2>
+
+        <hr>
+
+        <!-- =====> </text-area-section> <===== -->
+        <input type="text" maxlength="40"  placeholder="Type...." id="textfield" class="input" >
+
+        <!-- ======> </count and remaing> <===== -->
+        <div id="count" class="display">
+
+            <!-- ======> count-text-section <===== -->
+
+            <p> total-caracter : 
+                <span id="countDisplay">4</span>
+            </p>
+
+            <!-- ======> remaining-text-section <===== -->
+
+            <p> remaing : 
+                <span id="remainig-remaing">5</span>
+            </p>
+        </div>
+    </div>
+
     <!-- =====> </script-tag-incluid> <===== -->
-     <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
